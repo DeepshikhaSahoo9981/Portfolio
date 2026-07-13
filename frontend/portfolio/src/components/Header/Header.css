@@ -1,7 +1,7 @@
 .Header {
     height: 12dvh;
     width: 100%;
-    /* background: #F2D24B; */
+    /* background: #edc513; */
 
     display: flex;
     flex-direction: row;
@@ -24,7 +24,7 @@
     align-items: baseline;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    width: 100%;
+    width:50%;
 }
 
 .logo-container {
@@ -33,7 +33,6 @@
     align-items: baseline;
     justify-content: flex-start;
     font-size: 64px;
-    background: #fdf6d6;
     width: 18em;
     line-height: 1;
 }
@@ -89,10 +88,9 @@
 .MenuBar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     gap: 0.1rem;
-    padding-left: 0.5rem;
     height: 10dvh;
     width: auto;
     background: #F2D24B;
@@ -107,6 +105,22 @@
 
 .menu-item:hover {
     transform: scale(1.15);
+}
+
+@media(max-width:1024px){
+
+    .MenuBar{
+        height: 7dvh;
+    }
+
+    .menu-item{
+        font-size: 20px;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .common-text, .logo-container{
+        font-size: 36px;
+    }
 }
 
 /* Hide the hamburger button on desktop screens */
