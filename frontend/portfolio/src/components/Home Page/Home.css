@@ -5,7 +5,6 @@
     align-items: flex-end;
     height: 88dvh;
     width: 100%;
-    padding: 10 20px;
     gap: -5rem;
 }
 
@@ -15,6 +14,7 @@
     justify-content: center;
     align-items: flex-end;
     text-align: right;
+    padding: 1em 2em;
     gap: 3rem;
 }
 
@@ -67,7 +67,7 @@
 
 .MyDescription {
     text-align: right;
-    padding: 2rem;
+    padding: 1rem 2rem;
     width: 200px;
 }
 
