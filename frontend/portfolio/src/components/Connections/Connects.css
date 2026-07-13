@@ -4,8 +4,8 @@
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: auto;
-    gap: 12rem;
+    height: calc(100vh - 120px);
+    gap: 5rem;
 }
 
 .connect-info{
@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: self-start;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .connect-header,.section-info,.copyright{
@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: self-start;
+    gap: 0rem;
 }
 
 .connect-heading{
@@ -41,7 +42,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .icon-info img{
