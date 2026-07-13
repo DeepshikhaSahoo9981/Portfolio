@@ -58,11 +58,11 @@
     align-items: flex-end;
 }
 
-.project:nth-child(odd){
+.project:nth-child(odd) {
     align-items: flex-start;
 }
 
-.project-header{
+.project-header {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -74,12 +74,12 @@
     text-transform: uppercase;
 }
 
-.project-subtitle{
+.project-subtitle {
     color: #FFF6D2;
     font-size: 20px;
 }
 
-.project-status{
+.project-status {
     color: #FFF6D2;
     font-family: BodyFont, sans-serif;
     text-transform: uppercase;
@@ -87,7 +87,7 @@
     letter-spacing: 1px;
 }
 
-.project-description{
+.project-description {
     color: #FFF6D2;
     font-family: BodyFont, sans-serif;
     text-transform: uppercase;
@@ -95,7 +95,11 @@
     letter-spacing: 2px;
 }
 
-.features{
+.project-summary {
+    display: none;
+}
+
+.features {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -103,20 +107,21 @@
     gap: 1rem;
 }
 
-.featuring, .specs{
-    color:#F39A1E;
+.featuring,
+.specs {
+    color: #F39A1E;
     font-size: 12px;
     padding: 0.5rem;
     text-transform: uppercase;
     border: 0.5px #FFF6D2 solid
 }
 
-.specs{
-    color:#21B7D8;
+.specs {
+    color: #21B7D8;
     border: 0.5px #86e995 solid
 }
 
-.liveDemo{
+.liveDemo {
     background: #F2D24B;
     border: none;
     font-family: headingFont, sans-serif;
@@ -126,12 +131,12 @@
     font-size: 20px;
 }
 
-.liveDemo:active{
+.liveDemo:active {
     background: #F39A1E;
     transform: scale(0.9);
 }
 
-.liveDemo:hover{
+.liveDemo:hover {
     background-color: #FFF6D2;
     transform: scale(0.9);
 }
@@ -144,22 +149,23 @@
     background: #000;
     z-index: 9999;
     /* Crucial: prevents the iframe from intercepting mouse events and breaking the hover */
-    pointer-events: none; 
+    pointer-events: none;
     transition: transform 0.1s ease-out;
-  }
-  
-  .mini-preview-window iframe {
+}
+
+.mini-preview-window iframe {
     width: 100%;
     height: 100%;
-    transform: scale(1); /* Adjust scaling if you want a zoomed-out thumbnail look */
+    transform: scale(1);
+    /* Adjust scaling if you want a zoomed-out thumbnail look */
     transform-origin: top left;
-  }
+}
 
-.preview-image{
+.preview-image {
     transform: scale(0.5);
     position: absolute;
     z-index: 9997;
-    pointer-events: none; 
+    pointer-events: none;
     transition: transform 0.1s ease-out;
 }
 
@@ -176,67 +182,114 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     z-index: 9998;
 }
 
-.liveImg{
+.liveImg {
     transform: scale(0.5);
     position: relative;
     z-index: 9999;
-    pointer-events: none; 
+    pointer-events: none;
     transition: transform 0.1s ease-out;
 }
 
 
 @media (max-width: 1024px) {
     .work-heading {
-        font-size: 84px;
+        font-size: 48px;
+    }
+
+    .project-description {
+        display: none;
+    }
+
+    .project-summary {
+        display: contents;
+        color: #FFF6D2;
+        font-family: BodyFont, sans-serif;
+        text-transform: uppercase;
+        text-align: justify;
+        letter-spacing: 2px;
     }
 }
 
 
 @media (max-width: 786px) {
     .work-heading {
-        font-size: 64px;
+        font-size: 48px;
     }
 
     .work-disclaimer {
         font-size: 8px;
     }
 
-    .project{
+    .project {
         width: 400px;
     }
 
-    .project-title{
+    .project-title {
         font-size: 24px;
     }
 
-    .project-subtitle{
+    .project-subtitle {
         font-size: 16px;
     }
 
-    .project-status{
+    .project-status {
         font-size: 8px;
     }
 
-    .project-description{
-        font-size: 10px;
+    .project-description {
+        display: none;
     }
 
-    .liveImg{
+    .project-summary {
+        display: contents;
+        color: #FFF6D2;
+        font-family: BodyFont, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    .liveImg {
         transform: scale(0.3);
     }
 
-    .featuring, .specs{
+    .featuring,
+    .specs {
         font-size: 8px;
     }
 
-    .liveDemo{
+    .liveDemo {
         font-size: 14px;
         padding: 0.5rem;
     }
+}
 
+@media(max-height: 800px){
+    .work-heading {
+        font-size: 48px;
+    }
 
+    .project-description {
+        display: none;
+    }
+
+    .project-summary {
+        display: contents;
+        color: #FFF6D2;
+        font-family: BodyFont, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    .liveDemo {
+        font-size: 14px;
+        padding: 0.5rem;
+    }
 }

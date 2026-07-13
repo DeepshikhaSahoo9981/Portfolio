@@ -56,6 +56,7 @@ export default function WorkBlock({ workShop, index }) {
             </div>
             <span className="project-subtitle">{workShop.subtitle}</span>
             <span className="project-description">{workShop.description}</span>
+            <span className="project-summary">{workShop.summary}</span>
 
             <div className="features">
                 {

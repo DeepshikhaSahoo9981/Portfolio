@@ -11,7 +11,7 @@
     text-align: left;
     font-size: 84px;
     color: #0F5C6D;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
 }
 
 .experience-main {
@@ -97,6 +97,18 @@
         font-size: 48px;
     }
 
+    .yearsOfExperience {
+        font-size: 48px;
+    }
+
+    .yrs {
+        font-size: 20px;
+    }
+
+    .RoleExp {
+        font-size: 24px;
+    }
+
     .summary {
         font-family: bodyFont, sans-serif;
         letter-spacing: 2px;
@@ -120,6 +132,18 @@
         font-size: 48px;
     }
 
+    .yearsOfExperience {
+        font-size: 48px;
+    }
+
+    .yrs {
+        font-size: 20px;
+    }
+
+    .RoleExp {
+        font-size: 24px;
+    }
+
     .summary {
         font-family: bodyFont, sans-serif;
         letter-spacing: 2px;
@@ -139,7 +163,7 @@
     }
 }
 
-@media(max-width:1024px) {
+@media(max-width:1024px){
 
     .experience-header {
         font-size: 48px;
