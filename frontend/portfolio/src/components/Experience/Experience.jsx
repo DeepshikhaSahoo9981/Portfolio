@@ -26,6 +26,7 @@ export default function Experience({ }) {
                             </div>
                             <div className="content">
                                 <span className="desc">{exp.description}</span>
+                                <span className="summary">{exp.summary}</span>
                                 <div className="skills">
                                     {
                                         exp.keySkills.map((keySkill, i) => {

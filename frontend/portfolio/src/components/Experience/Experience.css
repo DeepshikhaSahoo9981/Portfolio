@@ -73,6 +73,10 @@
     letter-spacing: 2px;
 }
 
+.summary {
+    display: none;
+}
+
 .skills {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -88,25 +92,76 @@
     background-color: #F39A1E;
 }
 
+@media (max-height: 500px) {
+    .experience-header {
+        font-size: 48px;
+    }
+
+    .summary {
+        font-family: bodyFont, sans-serif;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .desc {
+        display: none;
+    }
+
+    .skill {
+        font-size: 8px;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: #F39A1E;
+    }
+}
+
+@media (max-height: 800px) {
+    .experience-header {
+        font-size: 48px;
+    }
+
+    .summary {
+        font-family: bodyFont, sans-serif;
+        letter-spacing: 2px;
+        font-size: 18px;
+        display: inline;
+    }
+
+    .desc {
+        display: none;
+    }
+
+    .skill {
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: #F39A1E;
+    }
+}
+
 @media(max-width:1024px) {
 
-    .highlightHeader{
+    .experience-header {
+        font-size: 48px;
+    }
+
+    .highlightHeader {
         gap: 0.2rem;
     }
 
     .yearsOfExperience {
-        font-size: 84px;
+        font-size: 48px;
     }
 
     .yrs {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .RoleExp {
-        font-size: 36px;
+        font-size: 24px;
     }
 
-    .experience{
+    .experience {
         width: 75%;
     }
 }

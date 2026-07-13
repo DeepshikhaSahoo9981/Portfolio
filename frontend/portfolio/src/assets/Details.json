@@ -93,6 +93,7 @@
       "title": "Society App",
       "subtitle": "The Housing Management App",
       "description": "Society is a colony/housing society management app that replaces scattered social media groups and paper registers with one organized platform. It brings maintenance due tracking, announcements, discussions, polls, event planning, complaints, and resident records into a single mobile-first system, with role-based access separating the Secretary (admin) from regular Members.",
+      "summary":"An all-in-one housing society management app that centralizes maintenance, announcements, and community tools into a single, role-based platform.",
       "motivation": "Every residential colony I know runs on a patchwork of social media broadcasts, handwritten maintenance registers, and word-of-mouth complaint tracking — none of which scale past a few dozen flats without someone losing track of who paid, who complained, or what was decided in a poll. I wanted to design and build a real system for a problem I could see happening around me, not a toy CRUD app, and use it to practice both product thinking (two distinct user roles with very different needs) and end-to-end fullstack + UI/UX ownership.",
       "features": {
         "Financial Ledger": "Automated maintenance due tracking and transparent expense splitting.",
@@ -117,6 +118,7 @@
       "title": "Naap",
       "subtitle": "The Custom Made Suit Shop",
       "description": "Naap is a comprehensive brand identity and logo design project crafted for a premium, bespoke tailoring service. It bridges old-world sartorial elegance with modern minimalist aesthetics, translating the precision, tactile textures, and heritage of custom suit-making into a timeless visual system including primary marks, typography, and a curated color palette.",
+      "summary":"A premium, minimalist brand identity and digital platform crafted for modern housing communities that translates complex property management, tracking, and communication into a seamless, role-based visual ecosystem.",
       "motivation": "There's a small tailoring shop near where I live — modest storefront, no branding to speak of, yet it's known locally for the quality of its work and has built a loyal following purely on craft and word of mouth. It made me wonder what a shop like that could look like if it had the identity to match its reputation. Most modern clothing brands rely on generic, ultra-minimalist luxury typography that lacks a human touch or storytelling. I wanted to imagine that shop scaled up—designing a deeply intentional brand identity for a high-end custom tailoring house that reflects the physical craft of tailoring, where every line, curve, and layout feels as deliberate and measured as a custom fabric cut—while practicing end-to-end brand strategy and visual storytelling.",
       "features": {
         "Brand Identity": "A cohesive visual system featuring a signature primary monogram and responsive logo variations.",
