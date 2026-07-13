@@ -46,6 +46,7 @@
 
 .common-text {
     font-size: 64px;
+    line-height: 200%;
     line-height: 1;
     color: #1E7F98;
 }
@@ -90,7 +91,7 @@
     align-items: center;
     gap: 0.1rem;
     padding-left: 0.5rem;
-    height: 80px;
+    height: 10dvh;
     width: auto;
     background: #F2D24B;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
