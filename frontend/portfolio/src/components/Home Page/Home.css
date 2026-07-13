@@ -103,3 +103,33 @@
         bottom: 1rem;
     }
 }
+
+@media(max-width: 786px) {
+
+
+    .Home {
+        padding: 0.5em 1em;
+        gap: 1.5rem;
+    }
+    
+    .heading {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+        font-size: 32px;
+    }
+
+    .heading img{
+        height: 32px;
+    }
+    
+    .ampersand-img {
+        height: 48px;
+    }
+
+
+    .Artwork {
+        bottom: 1rem;
+    }
+}
