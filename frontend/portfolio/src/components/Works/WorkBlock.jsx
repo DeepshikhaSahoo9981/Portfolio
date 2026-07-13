@@ -8,7 +8,7 @@ const statusColor = {
 
 const typeColor = {
     "voluntary project": "#F2C78C",
-    "imaginary project": "#B6F0FF",
+    "imaginary project": "#B6F0 FF",
     "on demand project": "#07768E"
 }
 

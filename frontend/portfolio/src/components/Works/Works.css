@@ -258,9 +258,15 @@
         transform: scale(0.3);
     }
 
+    .features{
+        gap: 0.4rem;
+    }
+
     .featuring,
     .specs {
         font-size: 8px;
+        padding: 0.1rem;
+        border-width: 0.2px;
     }
 
     .liveDemo {
