@@ -55,7 +55,7 @@
 
 .Main {
   width: 100dvw;
-  height: calc(100dvh - 120px);
+  height: 90dvh;
   display: flex;
   justify-content: center;
   align-items: center;
