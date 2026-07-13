@@ -18,8 +18,6 @@ const invertImage = [false, false, false, true, false];
 function App() {
   const [currentPage, setCurrentPage] = useState(0);
   const [IsIntro, setIsIntro] = useState(true);
-  const [touchStart, setTouchStart] = useState(null);
-  const [touchEnd, setTouchEnd] = useState(null);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -58,59 +56,12 @@ function App() {
       }
     }
 
-    const onTouchStart = (e) => {
-      setTouchEnd(null);
-      setTouchStart({
-        x: e.targetTouches[0].clientX,
-        y: e.targetTouches[0].clientY
-      })
-    }
-
-    const onTouchMove = (e) => {
-      setTouchEnd({
-        x: e.targetTouches[0].clientX,
-        y: e.targetTouches[0].clientY
-      });
-    }
-
-    const onTouchEnd = () => {
-      if (!touchStart || !touchEnd) return;
-
-      const distanceX = touchStart.x - touchEnd.x;
-      const distanceY = touchStart.y - touchEnd.y;
-      const isHorizontalSwipe = Math.abs(distanceX) > Math.abs(distanceY);
-
-      if (isHorizontalSwipe) {
-        // Horizontal Swipes
-        if (distanceX > minSwipeDistance) {
-          setCurrentPage(prev => (prev === PAGES.length - 1 ? prev : prev + 1));
-        } else if (distanceX < -minSwipeDistance) {
-          setCurrentPage(prev => (prev === 0 ? prev : prev - 1));
-        }
-      } else {
-        // Vertical Swipes
-        if (distanceY > minSwipeDistance) {
-          setCurrentPage(prev => (prev === PAGES.length - 1 ? prev : prev + 1));
-        } else if (distanceY < -minSwipeDistance) {
-          setCurrentPage(prev => (prev === 0 ? prev : prev - 1));
-        }
-      }
-    };
-
     window.addEventListener("wheel", handleWheel, { passive: true });
     window.addEventListener("keydown", handleArrows);
-    window.addEventListener("touchstart", onTouchStart);
-    window.addEventListener("touchmove", onTouchMove);
-    window.addEventListener("touchend", onTouchEnd);
 
     return () => {
       window.removeEventListener("wheel", handleWheel);
       window.removeEventListener("keydown", handleArrows);
-      window.removeEventListener("touchstart", onTouchStart);
-      window.removeEventListener("touchmove", onTouchMove);
-      window.removeEventListener("touchend", onTouchEnd);
-
-
     }
   }, []);
 
