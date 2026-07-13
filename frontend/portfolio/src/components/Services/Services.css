@@ -42,7 +42,7 @@
 }
 
 .section-2 {
-    height: calc(100vh - 200px);
+    height: calc(88dvh - 100px);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -81,7 +81,7 @@
 
 .Spirograph {
     transform: scale(0.8);
-    animation: spinSpirograph 6s linear infinite;
+    animation: spinSpirograph 12s linear infinite;
     transform-origin: center;
 }
 
