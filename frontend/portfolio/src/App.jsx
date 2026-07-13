@@ -16,7 +16,7 @@ const NextPageMessage = ["SCROLL TO EXPLORE", null, null, null, "THANK YOU"];
 const invertImage = [false, false, false, true, false];
 
 function App() {
-  const [currentPage, setCurrentPage] = useState(4);
+  const [currentPage, setCurrentPage] = useState(0);
   const [IsIntro, setIsIntro] = useState(true);
 
   useEffect(()=>{
