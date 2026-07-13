@@ -1,0 +1,206 @@
+[
+    {
+      "name": "pixel canvas",
+      "type": "dev",
+      "liveUrl": "https://doodlepixies.netlify.app/",
+      "description": "A lightweight React canvas for creating pixel-art drawings — simple tools, instant feedback, built for quick creative sketching sessions.",
+      "githubUrl": "https://github.com/Deepshikha1999/React-Small-projects/tree/main/build_characters",
+      "tech": "react js"
+    },
+    {
+      "name": "MazeLike",
+      "type": "dev",
+      "liveUrl": "https://explorer482265.netlify.app/",
+      "description": "An interactive maze built in React, where the goal is simple: navigate from start to end using logic and movement.",
+      "githubUrl": "https://github.com/Deepshikha1999/React-Small-projects/tree/main/explorer",
+      "tech": "react js"
+    },
+    {
+      "name": "ridiculous",
+      "type": "dev",
+      "liveUrl": "https://ridiculuoos.netlify.app/",
+      "description": "A playful collection of visual experiments and interesting art pieces, built to explore creative coding without a fixed goal.",
+      "githubUrl": "https://github.com/Deepshikha1999/React-Small-projects/tree/main/pixie_webpage",
+      "tech": "react js"
+    },
+    {
+      "name": "PhotoCards",
+      "type": "dev",
+      "liveUrl": "https://photooshoot.netlify.app/",
+      "description": "A camera-based tool that lets you capture photos and turn them into custom photocards or greeting cards, instantly shareable.",
+      "githubUrl": "https://github.com/Deepshikha1999/React-Small-projects/tree/main/photo_puzzle",
+      "tech": "camera"
+    },
+    {
+      "name": "Basic algo games",
+      "type": "dev",
+      "liveUrl": "https://basicalgo.netlify.app/",
+      "description": "Everyday algorithms turned into small interactive games — a hands-on way to practice and actually understand core logic concepts.",
+      "githubUrl": "https://github.com/Deepshikha1999/React-Small-projects/tree/main/basic_algorithm_concepts",
+      "tech": "just a hands on practise on different algorithms"
+    },
+    {
+      "name": "Digit_Recognisation",
+      "type": "dev",
+      "liveUrl": null,
+      "description": "Using TensorFlow and Scikit-Learn, this project builds, trains, and compares CNN and SVM models for handwritten digit recognition tasks.",
+      "githubUrl": "https://github.com/Deepshikha1999/Digit_Recognisation",
+      "tech": null
+    },
+    {
+      "name": "Doodle Generator",
+      "type": "dev",
+      "liveUrl": "mobile app",
+      "description": "A mobile app generating random doodle prompts using Gemini AI, automatically storing your sketches and ideas straight into Google Drive.",
+      "githubUrl": "https://github.com/DeepshikhaSahoo9981/Doodle-Collector-App",
+      "tech": "react native js, gemini flash 2.5, api for google drive for storage"
+    },
+    {
+      "name": "Portfolio Website",
+      "type": "dev",
+      "liveUrl": "",
+      "description": "A hybrid dev + design portfolio, hand-built from scratch — showcasing full-stack projects, UI/UX work, and everything in between.",
+      "githubUrl": "",
+      "tech": "html, css, javascript, figma"
+    },
+    {
+        "name": "FASTER Poster",
+        "type": "design",
+        "fileName": "",
+        "description": "A bold typographic poster set against a blurred subway train, using motion and grit to convey urgency and speed.",
+        "tool": "figma"
+      },
+      {
+        "name": "Amora Mobile — Volunteer Form",
+        "type": "design",
+        "fileName": "",
+        "description": "A mobile volunteer sign-up screen for a fictional art museum, blending soft tones with elegant serif typography.",
+        "tool": "figma"
+      },
+      {
+        "name": "RODEO Payment UI",
+        "type": "design",
+        "fileName": "",
+        "description": "A dark-themed checkout card interface with clean input fields, designed for a smooth and trustworthy payment experience.",
+        "tool": "figma"
+      },
+      {
+        "name": "404 Error — Summer Camp",
+        "type": "design",
+        "fileName": "",
+        "description": "A playful 404 page using a summer camp theme, guiding lost visitors back with charming illustration and signage.",
+        "tool": "figma"
+      },
+      {
+        "name": "Doodle Diary — Upload Screen",
+        "type": "design",
+        "fileName": "",
+        "description": "A hand-drawn, playful upload interface for a doodle-saving app, mixing sketchy typography with a friendly cloud icon.",
+        "tool": "figma"
+      },
+      {
+        "name": "Folks — Landing Page",
+        "type": "design",
+        "fileName": "",
+        "description": "A full landing page for a team-matching platform, featuring a bold hero, feature highlights, and an FAQ section.",
+        "tool": "figma"
+      },
+      {
+        "name": "Lemon Orchard — Picnic Pass",
+        "type": "design",
+        "fileName": "",
+        "description": "A bright, illustrated event pass design pairing hand-lettered type with a fresh citrus motif and scannable QR code.",
+        "tool": "figma"
+      },
+      {
+        "name": "Aam Ki Party — Invite Card",
+        "type": "design",
+        "fileName": "",
+        "description": "A vibrant, culturally rooted event invite card, combining warm illustration with festive typography and a QR pass.",
+        "tool": "figma"
+      },
+      {
+        "name": "App Icon — Gradient Figure",
+        "type": "design",
+        "fileName": "",
+        "description": "A minimal app icon built from a gradient figure mark, designed for clarity and instant recognition at small sizes.",
+        "tool": "figma"
+      },
+      {
+        "name": "Kroken Bar & Bistro — Menu",
+        "type": "design",
+        "fileName": "",
+        "description": "An elegant restaurant menu design for a Norwegian bistro, pairing script typography with a rich, moody floral background.",
+        "tool": "figma"
+      },
+      {
+        "name": "Popcorn Night — Icon Illustration",
+        "type": "design",
+        "fileName": "",
+        "description": "A playful isometric popcorn illustration designed as a coupon or event icon, full of texture and dimensional detail.",
+        "tool": "figma"
+      },
+      {
+        "name": "Amora Desktop — Volunteer Form",
+        "type": "design",
+        "fileName": "",
+        "description": "A desktop volunteer application layout for a fictional art museum, pairing a painterly backdrop with a clean sign-up form.",
+        "tool": "figma"
+      },
+      {
+        "name": "Sleep Tracker — App Icon",
+        "type": "design",
+        "fileName": "",
+        "description": "A cozy, expressive app icon for a sleep tracking app, using a sleepy cloud character to communicate calm instantly.",
+        "tool": "figma"
+      },
+      {
+        "name": "Lobby — Verification Screen",
+        "type": "design",
+        "fileName": "",
+        "description": "A dark-mode verification success screen for a members app, using a leaf mark and clear status messaging.",
+        "tool": "figma"
+      },
+      {
+        "name": "VOILA Summer — Poster",
+        "type": "design",
+        "fileName": "",
+        "description": "A whimsical summer-themed poster bursting with color, hand-drawn characters, and playful citrus and pool imagery.",
+        "tool": "procreate, figma"
+      },
+      {
+        "name": "Watermelon Fest — Party Card",
+        "type": "design",
+        "fileName": "",
+        "description": "A fun, character-driven event card for a watermelon festival, paired with a QR-coded access pass on the right.",
+        "tool": "figma"
+      },
+      {
+        "name": "Mango Masti — Frooti Concept",
+        "type": "design",
+        "fileName": "",
+        "description": "A vibrant, character-driven illustration turning a mango into a playful brand mascot for Frooti.",
+        "tool": "procreate"
+      },
+      {
+        "name": "FEEL — Halftone Editorial Poster",
+        "type": "design",
+        "fileName": "",
+        "description": "A striking pop-art portrait featuring an edgy halftone dot matrix pattern paired with brutalist typography.",
+        "tool": "figma"
+      },
+      {
+        "name": "Marathon Landing Page",
+        "type": "design",
+        "fileName": "",
+        "description": "A clean commercial banner layout showcasing menu offerings with high-contrast text and warm accent graphics.",
+        "tool": "figma"
+      },
+      {
+        "name": "Urban Style — Fashion Banner",
+        "type": "design",
+        "fileName": "",
+        "description": "A minimal, modern streetwear promotional hero block mixing bold photography with clean layouts.",
+        "tool": "figma"
+      }
+  ]

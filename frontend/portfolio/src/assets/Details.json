@@ -1,0 +1,157 @@
+{
+  "about": {
+    "heading": "ABOUT",
+    "subHeading": "I design & code",
+    "description": "I build the whole spectrum — from fully functional backends to elegant, polished UI — because good products need both working in sync."
+  },
+  "features": [
+    {
+      "title": "Fullstack Development",
+      "description": "Building interfaces and systems end to end, from React frontends to Node backends."
+    },
+    {
+      "title": "UI/UX DESIGN",
+      "description": "Turning ideas into clean, usable layouts — from wireframe to polished Figma prototype."
+    },
+    {
+      "title": "Icon & Visual Design",
+      "description": "Small-scale visual systems — icons, marks, and illustration with attention to detail at every size."
+    }
+  ],
+  "Stacks": [
+    "Node.js",
+    "React.js",
+    "HTML",
+    "CSS",
+    "Python",
+    "Basic Machine Learning",
+    "Neo4j",
+    "SQL",
+    "FIGMA"
+  ],
+  "contactDetails": [
+    {
+      "icon": "/icons/mail.png",
+      "info": "deepshikha.sahoo.9981@gmail.com",
+      "type": "email"
+    },
+    {
+      "icon": "/icons/github.png",
+      "info": "https://github.com/Deepshikha1999",
+      "type": "github"
+    }
+  ],
+  "works": [
+    {
+      "name": "Doodle Store - Mobile App",
+      "type": "dev",
+      "fileName": "doodle_store.svg",
+      "description": "A mobile app generating random doodle prompts using Gemini AI, automatically storing your sketches and ideas straight into Google Drive.",
+      "githubUrl": "https://github.com/DeepshikhaSahoo9981/Doodle-Collector-App",
+      "tool": "react native js, gemini flash 2.5, api for google drive for storage",
+      "status": "done"
+    },
+    {
+      "name": "Folks - Landing Page UI",
+      "type": "design",
+      "liveUrl": "https://www.figma.com/proto/7L7Cr4OZWa9KldzJyCZpMP/Day-4?node-id=5-125&viewport=29%2C438%2C0.12&t=FNCfbEXnr0RzjO6L-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A2",
+      "fileName": "landing_page.svg",
+      "description": "A full landing page for a team-matching platform, featuring a bold hero, feature highlights, and an FAQ section.",
+      "tool": "figma",
+      "status": "done"
+    },
+    {
+      "name": "VOILA Summer - Illustration",
+      "type": "design",
+      "fileName": "summer_vibes.svg",
+      "description": "A whimsical summer-themed poster bursting with color, hand-drawn characters, and playful citrus and pool imagery.",
+      "tool": "procreate",
+      "status": "done"
+    },
+    {
+      "name": "Card Payment - UI Design",
+      "type": "design",
+      "liveUrl": "https://www.figma.com/proto/K3YIATOMIbBj46kJxiYJKr/Day-3?node-id=7-4&p=f&viewport=294%2C1504%2C0.23&scaling=min-zoom&content-scaling=fixed&page-id=6%3A2&embed-host=share",
+      "fileName": "credit_card_payment.svg",
+      "description": "A dark-themed checkout card interface with clean input fields, designed for a smooth and trustworthy payment experience.",
+      "tool": "figma",
+      "status": "done"
+    },
+    {
+      "name": "Society - Colony Management App",
+      "type": "dev",
+      "liveUrl": "https://www.figma.com/proto/nUvw2Zrrrlv7vPS3KAz5rW/Society?node-id=49-1146&p=f&viewport=407%2C380%2C0.24&scaling=scale-down&content-scaling=fixed&starting-point-node-id=49%3A1166&page-id=49%3A1055&embed-host=share",
+      "description": "Born from a real-world need to streamline community coordination, Society is a full-stack platform built to modernize neighborhood administration. It bridges the communication and management gap in residential colonies by digitizing member directories, announcements, and data tracking.",
+      "githubUrl": "-",
+      "tool": "react native, node js, postgresql",
+      "status": "ongoing",
+      "fileName": "society_app.svg"
+    }
+  ],
+  "workShop": [
+    {
+      "title": "Society App",
+      "subtitle": "The Housing Management App",
+      "description": "Society is a colony/housing society management app that replaces scattered social media groups and paper registers with one organized platform. It brings maintenance due tracking, announcements, discussions, polls, event planning, complaints, and resident records into a single mobile-first system, with role-based access separating the Secretary (admin) from regular Members.",
+      "motivation": "Every residential colony I know runs on a patchwork of social media broadcasts, handwritten maintenance registers, and word-of-mouth complaint tracking — none of which scale past a few dozen flats without someone losing track of who paid, who complained, or what was decided in a poll. I wanted to design and build a real system for a problem I could see happening around me, not a toy CRUD app, and use it to practice both product thinking (two distinct user roles with very different needs) and end-to-end fullstack + UI/UX ownership.",
+      "features": {
+        "Financial Ledger": "Automated maintenance due tracking and transparent expense splitting.",
+        "Governance Tools": "Community discussions, official announcements, and real-time resident polls.",
+        "Operations": "Centralized complaint management pipeline and a secure digital Member Directory."
+      },
+      "specs": {
+        "frontend": "React Native.js",
+        "backend": "Node.js",
+        "database": "PostgreSQL",
+        "design": "Figma"
+      },
+      "currentChallenge": "Currently optimizing the app to transition from high-maintenance administrative overhead to a seamless 'few-clicks' experience. The primary UX hurdle is navigating the inverse proportion between security/accuracy and user steps—minimizing friction without compromising community data integrity.",
+      "demo": "https://www.figma.com/proto/nUvw2Zrrrlv7vPS3KAz5rW/Society?node-id=49-1146&p=f&viewport=407%2C380%2C0.24&scaling=scale-down&content-scaling=fixed&starting-point-node-id=49%3A1166&page-id=49%3A1055&embed-host=share",
+      "status": "In Progress",
+      "type": "voluntary project",
+      "category": "development",
+      "demoImage": "society_app.svg",
+      "liveURL": null
+    },
+    {
+      "title": "Naap",
+      "subtitle": "The Custom Made Suit Shop",
+      "description": "Naap is a comprehensive brand identity and logo design project crafted for a premium, bespoke tailoring service. It bridges old-world sartorial elegance with modern minimalist aesthetics, translating the precision, tactile textures, and heritage of custom suit-making into a timeless visual system including primary marks, typography, and a curated color palette.",
+      "motivation": "There's a small tailoring shop near where I live — modest storefront, no branding to speak of, yet it's known locally for the quality of its work and has built a loyal following purely on craft and word of mouth. It made me wonder what a shop like that could look like if it had the identity to match its reputation. Most modern clothing brands rely on generic, ultra-minimalist luxury typography that lacks a human touch or storytelling. I wanted to imagine that shop scaled up—designing a deeply intentional brand identity for a high-end custom tailoring house that reflects the physical craft of tailoring, where every line, curve, and layout feels as deliberate and measured as a custom fabric cut—while practicing end-to-end brand strategy and visual storytelling.",
+      "features": {
+        "Brand Identity": "A cohesive visual system featuring a signature primary monogram and responsive logo variations.",
+        "Typography & Layout": "A sophisticated typographic pairing that balances classic heritage with contemporary design principles.",
+        "Color & Material Palette": "A carefully curated selection of rich, high-contrast tones inspired by premium textiles and bespoke craftsmanship."
+      },
+      "specs": {
+        "design": "Figma"
+      },
+      "currentChallenge": null,
+      "demo": null,
+      "demoImage": "card.svg",
+      "status": "draft",
+      "type": "imaginary project",
+      "category": "design",
+      "liveURL": null,
+      "liveImg": "naap_branding.svg"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Fullstack Developer",
+      "company": "IBM India",
+      "duration": "2021 - 2024",
+      "durationInYears": "3",
+      "focus": "Middleware & Pipeline Development",
+      "summary": "Three years as a Fullstack Developer at IBM, focused on building and maintaining middleware pipelines that moved data between client systems during migrations.",
+      "description": "My core work involved neutralizing, filtering, and processing data as it moved from one client's system to another, helping organizations migrate cleanly into new platforms without data loss or corruption. Through this, I developed deep hands-on expertise in API development — designing, integrating, and maintaining the interfaces that made those migrations reliable at scale.",
+      "keySkills": [
+        "API design & development",
+        "Data filtering & transformation",
+        "System-to-system migration",
+        "Cross-client data integration",
+        "Code works better in local than in server"
+      ]
+    }
+  ]
+}

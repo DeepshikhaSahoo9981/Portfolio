@@ -1,0 +1,8 @@
+<svg width="225" height="225" viewBox="0 0 225 225" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Repeat group 1_inner" data-figma-trr="r4u0.5-0f">
+<path d="M144.381 76.5869C144.381 96.3669 140.766 114.25 134.941 127.17C129.096 140.136 121.123 147.913 112.5 147.913C103.877 147.913 95.9048 140.136 90.0594 127.17C84.235 114.25 80.619 96.367 80.619 76.5869C80.619 56.8068 84.235 38.9236 90.0594 26.0039C95.9048 13.0377 103.877 5.26087 112.5 5.26074C121.123 5.26074 129.096 13.0376 134.941 26.0039C140.766 38.9235 144.381 56.8069 144.381 76.5869Z" stroke="black"/>
+</g>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(225 1.10283e-06) rotate(90)"/>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(225 225) rotate(-180)"/>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(2.47315e-06 225) rotate(-90)"/>
+</svg>

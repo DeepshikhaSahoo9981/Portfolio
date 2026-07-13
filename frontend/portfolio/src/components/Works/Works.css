@@ -1,0 +1,242 @@
+.Works {
+    height: calc(100vh - 120px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 0.3rem;
+}
+
+.work-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: -2rem;
+}
+
+.work-heading {
+    font-size: 84px;
+    color: #011C23;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.work-disclaimer {
+    font-size: 12px;
+    color: #011C23;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.projects {
+    height: 100%;
+    width: 100%;
+    background-color: #011C23;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.project {
+    height: 100px;
+    width: 600px;
+    padding: 2rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.project:nth-child(even) {
+    align-self: flex-end;
+    align-items: flex-end;
+}
+
+.project:nth-child(odd){
+    align-items: flex-start;
+}
+
+.project-header{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.project-title {
+    color: #FFF6D2;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.project-subtitle{
+    color: #FFF6D2;
+    font-size: 20px;
+}
+
+.project-status{
+    color: #FFF6D2;
+    font-family: BodyFont, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.project-description{
+    color: #FFF6D2;
+    font-family: BodyFont, sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.featuring, .specs{
+    color:#F39A1E;
+    font-size: 12px;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    border: 0.5px #FFF6D2 solid
+}
+
+.specs{
+    color:#21B7D8;
+    border: 0.5px #86e995 solid
+}
+
+.liveDemo{
+    background: #F2D24B;
+    border: none;
+    font-family: headingFont, sans-serif;
+    padding: 1rem 2rem;
+    color: #011C23;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.liveDemo:active{
+    background: #F39A1E;
+    transform: scale(0.9);
+}
+
+.liveDemo:hover{
+    background-color: #FFF6D2;
+    transform: scale(0.9);
+}
+
+.mini-preview-window {
+    position: fixed;
+    width: 320px;
+    height: 200px;
+    overflow: hidden;
+    background: #000;
+    z-index: 9999;
+    /* Crucial: prevents the iframe from intercepting mouse events and breaking the hover */
+    pointer-events: none; 
+    transition: transform 0.1s ease-out;
+  }
+  
+  .mini-preview-window iframe {
+    width: 100%;
+    height: 100%;
+    transform: scale(1); /* Adjust scaling if you want a zoomed-out thumbnail look */
+    transform-origin: top left;
+  }
+
+.preview-image{
+    transform: scale(0.5);
+    position: absolute;
+    z-index: 9997;
+    pointer-events: none; 
+    transition: transform 0.1s ease-out;
+}
+
+
+.blur-backdrop {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 9998;
+}
+
+.liveImg{
+    transform: scale(0.5);
+    position: relative;
+    z-index: 9999;
+    pointer-events: none; 
+    transition: transform 0.1s ease-out;
+}
+
+
+@media (max-width: 1024px) {
+    .work-heading {
+        font-size: 84px;
+    }
+}
+
+
+@media (max-width: 786px) {
+    .work-heading {
+        font-size: 64px;
+    }
+
+    .work-disclaimer {
+        font-size: 8px;
+    }
+
+    .project{
+        width: 400px;
+    }
+
+    .project-title{
+        font-size: 24px;
+    }
+
+    .project-subtitle{
+        font-size: 16px;
+    }
+
+    .project-status{
+        font-size: 8px;
+    }
+
+    .project-description{
+        font-size: 10px;
+    }
+
+    .liveImg{
+        transform: scale(0.3);
+    }
+
+    .featuring, .specs{
+        font-size: 8px;
+    }
+
+    .liveDemo{
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+
+
+}

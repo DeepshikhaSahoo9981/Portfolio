@@ -1,0 +1,127 @@
+.IntroPage {
+  height: 100vh;
+  background: #00090b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: bodyFont, sans-serif;
+  gap: 1rem;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  transition: opacity 0.9s ease, visibility 0.9s ease;
+}
+
+.intro{
+  text-transform: uppercase;
+  color: #ffffff ;
+  font-size: 24px;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards;
+  animation-delay: 1s;
+}
+
+.girlImg{
+  opacity: 0;
+  animation: fadeScaleIn 1.2s ease forwards;
+}
+
+@keyframes fadeScaleIn {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
+.Portfolio {
+  height: 100vh;
+  background: #F2D24B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  font-family: headingFont, sans-serif;
+  z-index: 2;
+}
+
+.Main {
+  width: 100svw;
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+
+  z-index: 3;
+
+  animation: pageSlideFade 0.45s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
+  will-change: opacity, transform;
+}
+
+/* Define how the incoming page translates into focus */
+@keyframes pageSlideFade {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.screen-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.scrollTxt {
+  padding: 1rem;
+  font-size: 20px;
+  color: #6f5900;
+  animation: bounce 0.6s ease-in-out infinite alternate;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5px;
+  align-items: center;
+  /* left: 10px; */
+  border: 1px #3B7D8C solid;
+  border-radius: 50%;
+
+}
+
+.scrollTxt img {
+  height: 30px;
+  transform: rotate(90deg);
+  /* filter: invert(1); */
+}
+
+#scrollIt {
+  border: none;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background: #3B7D8C;
+  border-radius: 50%;
+  animation: bounce 0.6s ease-in-out infinite alternate;
+  animation-delay: 0.3s;
+}

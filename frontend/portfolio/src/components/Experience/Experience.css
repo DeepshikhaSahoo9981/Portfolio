@@ -1,0 +1,112 @@
+.Experience {
+    height: calc(100vh - 120px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.experience-header {
+    text-align: left;
+    font-size: 84px;
+    color: #0F5C6D;
+    padding: 2rem 2rem;
+}
+
+.experience-main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.experience {
+    width: 50%;
+    height: auto;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.highlightHeader {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.yearsOfExperience {
+    font-size: 120px;
+    padding: 0.2rem;
+    text-align: left;
+}
+
+.yrs {
+    font-size: 48px;
+}
+
+.RoleExp {
+    font-size: 64px;
+    text-align: left;
+}
+
+
+.content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.desc {
+    font-family: bodyFont, sans-serif;
+    letter-spacing: 2px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.skill {
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    /* border: 0.5px #0F5C6D solid; */
+    text-align: center;
+    background-color: #F39A1E;
+}
+
+@media(max-width:1024px) {
+
+    .highlightHeader{
+        gap: 0.2rem;
+    }
+
+    .yearsOfExperience {
+        font-size: 84px;
+    }
+
+    .yrs {
+        font-size: 24px;
+    }
+
+    .RoleExp {
+        font-size: 36px;
+    }
+
+    .experience{
+        width: 75%;
+    }
+}

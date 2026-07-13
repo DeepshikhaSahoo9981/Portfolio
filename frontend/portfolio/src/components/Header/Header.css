@@ -1,0 +1,164 @@
+.Header {
+    height: 120px;
+    width: 100%;
+    /* background: #F2D24B; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: self-end;
+    justify-content: space-between;
+
+    padding: 0 10px;
+    position: absolute;
+
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+    z-index: 2;
+}
+
+.Logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.logo-container {
+    position: relative;
+    display: inline-block;
+    min-width: 250px;
+    height: 80px;
+}
+
+.logo-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 64px;
+    line-height: 200%;
+    color: #F39A1E;
+    opacity: 0;
+    white-space: nowrap;
+    animation: rotateWords 9s ease-in-out infinite;
+}
+
+.common-text {
+    font-size: 64px;
+    line-height: 1;
+    color: #1E7F98;
+}
+
+.text-1 {
+    animation-delay: 0s;
+}
+
+.text-2 {
+    animation-delay: 3s;
+}
+
+.text-3 {
+    animation-delay: 6s;
+}
+
+@keyframes rotateWords {
+    0% {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    5%,
+    33% {
+        opacity: 1;
+        transform: translateY(0px);
+        /* Visible state */
+    }
+
+    38%,
+    100% {
+        opacity: 0;
+        transform: translateY(-5px);
+        /* Smooth exit upward */
+    }
+}
+
+.MenuBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.1rem;
+    padding-left: 0.5rem;
+    height: 80px;
+    width: auto;
+    background: #F2D24B;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-item {
+    color: #011C23;
+    font-size: 32px;
+    padding: 1rem 2rem;
+}
+
+.menu-item:hover {
+    transform: scale(1.15);
+}
+
+/* Hide the hamburger button on desktop screens */
+/* .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #000;
+} */
+
+/* --- MOBILE RESPONSIVE DROPDOWN BREAKPOINT --- */
+/* @media (max-width: 1024px) { */
+
+/* Show the hamburger button on mobile */
+/* .menu-toggle {
+        display: block;
+        z-index: 100;
+        
+    } */
+
+/* Convert MenuBar into an absolute dropdown wrapper */
+/* .MenuBar {
+        position: absolute;
+        top: 120px;
+        
+        left: 0;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        
+        gap: 1.5rem;
+        padding: 2rem 0;
+        background: #F2D24B;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+
+        
+        opacity: 0;
+        transform: translateY(-10px);
+        pointer-events: none;
+        transition: all 0.3s ease-in-out;
+    } */
+
+/* When React state applies the .open class, show the menu */
+/* .MenuBar.open {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    } */
+
+/* Scale down font sizes slightly so they fit cleanly on mobile */
+/* .menu-item {
+        font-size: 24px;
+        padding: 0.5rem 1rem;
+        width: 100%;
+        text-align: center;
+    } */
+/* } */

@@ -1,0 +1,57 @@
+.Connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 12rem;
+}
+
+.connect-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: self-start;
+    gap: 3rem;
+}
+
+.connect-header,.section-info,.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+}
+
+.connect-heading{
+    font-size: 120px;
+    color: #0F5C6D;
+}
+
+.connect-message{
+    font-size: 36px;
+}
+
+.section-info{
+    gap: 1rem;
+}
+
+.icon-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.icon-info img{
+    width: 36px;
+}
+
+.icon-info span{
+    font-size: 24px;
+}
+
+.qrcode{
+    height: 200px;
+}
