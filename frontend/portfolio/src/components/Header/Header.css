@@ -14,30 +14,32 @@
     left: 0px;
     top: 0px;
     box-sizing: border-box;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #6b6666;
     z-index: 2;
 }
 
 .Logo {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .logo-container {
     position: relative;
-    display: inline-block;
-    min-width: 250px;
-    height: 80px;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    font-size: 64px;
+    background: #fdf6d6;
+    width: 18em;
+    line-height: 1;
 }
 
 .logo-text {
     position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 64px;
-    line-height: 200%;
     color: #F39A1E;
     opacity: 0;
     white-space: nowrap;
@@ -46,9 +48,9 @@
 
 .common-text {
     font-size: 64px;
-    line-height: 200%;
     line-height: 1;
     color: #1E7F98;
+    align-self: self-start;
 }
 
 .text-1 {
@@ -66,7 +68,7 @@
 @keyframes rotateWords {
     0% {
         opacity: 0;
-        transform: translateY(5px);
+        transform: translateY(10px);
     }
 
     5%,
@@ -79,7 +81,7 @@
     38%,
     100% {
         opacity: 0;
-        transform: translateY(-5px);
+        transform: translateY(-10px);
         /* Smooth exit upward */
     }
 }
