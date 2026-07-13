@@ -1,6 +1,6 @@
 .Services {
     width: 100%;
-    height: calc(100dvh - 120px);
+    height: calc(100vh - 120px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +42,7 @@
 }
 
 .section-2 {
-    height: calc(100dvh - 200px);
+    height: calc(100vh - 200px);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -121,7 +121,7 @@
 @media (max-width: 1000px) {
     .section-2 {
         position: relative;
-        height: calc(100dvh - 200px);
+        height: calc(100vh - 200px);
         width: 100%;
         animation: pageSlideFade 0.45s ease-in forwards;
     }

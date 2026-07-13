@@ -1,5 +1,5 @@
 .IntroPage {
-  height: 100dvh;
+  height: 100vh;
   background: #00090b;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@
 
 
 .Portfolio {
-  height: 100dvh;
+  height: 100vh;
   background: #F2D24B;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@
 
 .Main {
   width: 100svw;
-  height: calc(100dvh - 120px);
+  height: calc(100vh - 120px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +86,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100dvh;
+  height: 100vh;
   z-index: 1;
   pointer-events: none;
   will-change: transform;
