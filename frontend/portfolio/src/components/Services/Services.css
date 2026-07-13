@@ -29,6 +29,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 4px;
+    padding-top: 0.2rem;
 }
 
 .stack-element {
@@ -80,18 +81,18 @@
 }
 
 .Spirograph {
-    transform: scale(0.8);
+    transform: scale(0.6);
     animation: spinSpirograph 12s linear infinite;
     transform-origin: center;
 }
 
 @keyframes spinSpirograph {
     from {
-        transform: scale(0.8) rotate(0deg);
+        transform: scale(0.6) rotate(0deg);
     }
 
     to {
-        transform: scale(0.8) rotate(360deg);
+        transform: scale(0.6) rotate(360deg);
     }
 }
 
