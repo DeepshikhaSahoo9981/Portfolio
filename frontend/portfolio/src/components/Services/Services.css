@@ -117,15 +117,18 @@
     text-align: justify;
 }
 
+@media(max-height: 800px) {
+    .Spirograph{
+        display: none;
+    }
+}
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) and (min-height: 800px){
     .section-heading{
         font-size: 48px;
     }
     .section-2 {
         position: relative;
-        height: calc(100vh - 200px);
-        width: 100%;
         animation: pageSlideFade 0.45s ease-in forwards;
     }
 
@@ -135,7 +138,6 @@
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
-        /* Slightly narrower to fit smaller devices */
         height: 100%;
         display: flex;
         flex-direction: column;

@@ -24,7 +24,7 @@
     align-items: baseline;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    width:50%;
+    width: 50%;
 }
 
 .logo-container {
@@ -107,22 +107,33 @@
     transform: scale(1.15);
 }
 
-@media(max-width:1024px){
+@media(max-width:1024px) {
 
-    .MenuBar{
+    .MenuBar {
         height: auto;
     }
 
-    .menu-item{
+    .menu-item {
         font-size: 18px;
-        padding: 0.4rem 0.8rem;
+        padding: 0.1rem 0.3rem;
     }
 
-    .common-text, .logo-container{
+    .common-text,
+    .logo-container {
         font-size: 24px;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .menu-item {
+        display: block;
+    }
+
+    #next,
+    #prev {
+        display: inline-flexbox;
+    }
+}
 /* Hide the hamburger button on desktop screens */
 /* .menu-toggle {
     display: none;
