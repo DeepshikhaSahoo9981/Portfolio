@@ -277,7 +277,7 @@
     }
 }
 
-@media(max-height: 800px){
+@media(max-height: 600px){
     .work-heading {
         font-size: 48px;
     }
