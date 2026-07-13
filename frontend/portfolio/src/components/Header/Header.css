@@ -110,7 +110,7 @@
 @media(max-width:1024px){
 
     .MenuBar{
-        height: 7dvh;
+        height: auto;
     }
 
     .menu-item{
