@@ -25,12 +25,12 @@
 }
 
 .connect-heading{
-    font-size: 120px;
+    font-size: 84px;
     color: #0F5C6D;
 }
 
 .connect-message{
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .section-info{
@@ -42,17 +42,64 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .icon-info img{
-    width: 36px;
+    width: 24px;
 }
 
 .icon-info span{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .qrcode{
     height: 200px;
+}
+
+.developerInfo img{
+    width: 20px;
+}
+
+@media(max-width:786px){
+
+    .Connect{
+        gap: 0rem;
+        flex-direction: column;
+    }
+
+    .connect-info{
+        padding-left: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .connect-header,.section-info,.copyright{
+        font-size: 8px;
+    }
+
+    .connect-heading{
+        font-size: 48px;
+    }
+    
+    .connect-message{
+        font-size: 18px;
+    }
+
+    .icon-info img{
+        width: 18px;
+    }
+    
+    .icon-info span{
+        font-size: 16px;
+    }
+    .qrcode{
+        height: 100px;
+    }
+    .developerInfo img{
+        width: 4px;
+    }
+    .caricreature{
+        width: 100px;
+    }
+
 }

@@ -19,7 +19,7 @@ export default function Connects({ }) {
                 </div>
                 <div className="copyright">
                     <span className="remark">© 2026 Deepshikha</span>
-                    <span className="developerInfo"><img src={heart} alt="heart" style = {{width: "20px"}}/> Designed & built by Deepshikha</span>
+                    <span className="developerInfo"><img src={heart} alt="heart"/> Designed & built by Deepshikha</span>
                 </div>
             </div>
             <img src={caricreature} alt="carcreature" className="caricreature" />
