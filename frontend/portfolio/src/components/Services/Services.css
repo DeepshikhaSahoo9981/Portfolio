@@ -60,7 +60,6 @@
     width: 360px;
     height: 100%;
     background: #FFFCED;
-    gap: 1.5rem;
 }
 
 @keyframes pageSlideFade {
