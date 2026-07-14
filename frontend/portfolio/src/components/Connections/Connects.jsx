@@ -2,7 +2,7 @@ import "./Connects.css";
 import caricreature from "./../../assets/signature art/Vector 4.svg";
 import details from "./../../assets/Details.json";
 import heart from "/icons/heart.png";
-import qrCode from "./../../assets/qr code.png";
+import qrCode from "./../../assets/qr code.svg";
 const contacts = [...details.contactDetails];
 
 export default function Connects({ }) {
