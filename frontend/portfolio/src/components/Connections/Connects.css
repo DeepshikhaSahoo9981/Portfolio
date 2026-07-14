@@ -49,8 +49,10 @@
     width: 24px;
 }
 
-.icon-info span{
+.icon-info a{
     font-size: 20px;
+    text-decoration: none;
+    color: #000;
 }
 
 .qrcode{
@@ -89,7 +91,7 @@
         width: 18px;
     }
     
-    .icon-info span{
+    .icon-info a{
         font-size: 16px;
     }
     .qrcode{

@@ -31,7 +31,7 @@ function IconAndInfo({ iconInfo }) {
     return (
         <div className="icon-info">
             <img src={iconInfo.icon} alt={iconInfo.type} />
-            <span>{iconInfo.info}</span>
+            <a href={iconInfo.code} target="_blank" rel="noopener noreferrer">{iconInfo.info}</a>
         </div>
     )
 }

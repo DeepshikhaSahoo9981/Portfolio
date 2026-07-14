@@ -33,12 +33,14 @@
     {
       "icon": "/icons/mail.png",
       "info": "deepshikha.sahoo.9981@gmail.com",
+      "code": "mailto:deepshikha.sahoo.9981@gmail.com",
       "type": "email"
     },
     {
       "icon": "/icons/github.png",
       "info": "https://github.com/Deepshikha1999",
-      "type": "github"
+      "type": "github",
+      "code": "https://github.com/Deepshikha1999"
     }
   ],
   "works": [
